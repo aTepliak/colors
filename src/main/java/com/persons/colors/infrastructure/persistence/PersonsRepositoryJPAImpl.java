@@ -1,11 +1,10 @@
-package com.persons.colors.infrastructure.db;
+package com.persons.colors.infrastructure.persistence;
 
 import com.persons.colors.application.entity.Person;
 import com.persons.colors.application.entity.PersonId;
 import com.persons.colors.application.repsitory.PersonsRepository;
 import org.apache.commons.collections4.IterableUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.persons.colors.infrastructure.db;
+package com.persons.colors.infrastructure.persistence;
 
 import com.persons.colors.application.entity.Person;
 import com.persons.colors.application.entity.PersonId;
