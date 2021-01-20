@@ -35,6 +35,5 @@ public class PersonsRepositoryJPAImpl implements PersonsRepository {
   @Override
   public void save(Person person) {
     personsRepositoryJpa.save(person);
-
   }
 }
