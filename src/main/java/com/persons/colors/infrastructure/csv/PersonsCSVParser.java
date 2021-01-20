@@ -30,7 +30,7 @@ public class PersonsCSVParser {
         log.info("Read entry from CSV: "+ person.toString());
         persons.add(person);
       }
-    } catch (IOException | CsvValidationException e) {
+    } catch (IOException | CsvValidationException | NumberFormatException e ) {
       log.error(e.getMessage());
       e.printStackTrace();
     }
